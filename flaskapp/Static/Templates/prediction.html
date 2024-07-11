@@ -1,0 +1,41 @@
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>cereal analysis prediction</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='diabetes-favicon.ico') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	</head>
+	<style>
+body
+{
+background-image:url(predict6.jpg);
+background-position: right; 
+font-family:sans-serif;
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-size: 18;
+} 
+</style>
+
+      <body>
+         </br></br></br></br></br></br>
+         <!-- Website Title -->
+         <div style="padding-left: 200px">
+         <div class="container">
+                   <h2 class="container-heading"><span class="heading_font" ><center>CEREAL ANALYSIS PREDICTION BASED ON RATINGS</center></span>
+                   <div class="description">
+                      <center><p>A Machine Learning Web App using Flask.</p></center>
+                   </div>
+         </div>
+       <!-- Result -->
+       <div class="results">
+       
+            <center><p>Prediction : <b><u>{{ z }}</u></b></p></center>
+             
+       </div>
+   </div>
+  </body>
+</html>
